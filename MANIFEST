@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST
+META.json
+META.yml
+Makefile.PL
+README
+TODO.txt
+dist.ini
+examples/facebook.yml
+examples/show_group_information.pl
+facebook.yml
+lib/Facebook/Graph/Cmdline.pm
+lib/Facebook/Graph/role/HTTPtoken.pm
+lib/Facebook/Graph/role/save_token.pm

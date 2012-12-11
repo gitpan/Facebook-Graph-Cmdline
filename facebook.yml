@@ -1,0 +1,16 @@
+---
+app_id: 113581115331137
+permissions:
+- email
+- offline_access
+- publish_stream
+- publish_actions
+- create_event
+- rsvp_event
+- manage_pages
+- user_groups
+- friends_location
+postback: http://localhost:8123/
+secret: c548c8476d4ffc3eba41a7ce70a6c1f8
+soken: AAABnTSoIUkEBAHQ3quxxBFv4WEIyBUuOEu7ILIYZBB91PT8pC5p3QQuAZAZBFDDMkqHZABZApdGCNYjWIiWLkUacAZBTeBI3NSIx7wQNz4HwZDZD
+token: AAABnTSoIUkEBAHQ3quxxBFv4WEIyBUuOEu7ILIYZBB91PT8pC5p3QQuAZAZBFDDMkqHZABZApdGCNYjWIiWLkUacAZBTeBI3NSIx7wQNz4HwZDZD

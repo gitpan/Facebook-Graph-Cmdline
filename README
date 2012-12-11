@@ -1,0 +1,13 @@
+
+
+This archive contains the distribution Facebook-Graph-Cmdline,
+version 0.123460:
+
+  Extends Facebook::Graph to create and save an access token.
+
+This software is copyright (c) 2012 by Andrew Grangaard.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+

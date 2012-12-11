@@ -1,0 +1,48 @@
+{
+   "abstract" : "Extends Facebook::Graph to create and save an access token.",
+   "author" : [
+      "Andrew Grangaard <spazm@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300003, CPAN::Meta::Converter version 2.112621",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Facebook-Graph-Cmdline",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Any::Moose" : 0,
+            "Facebook::Graph" : 0,
+            "HTTP::Daemon" : "6.00",
+            "MooseX::Getopt" : 0,
+            "MooseX::SimpleConfig" : 0,
+            "MouseX::Getopt" : 0,
+            "MouseX::SimpleConfig" : 0,
+            "URI" : 0,
+            "YAML::Any" : 0,
+            "perl" : "v5.10.0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "homepage" : "http://lowlevelmanager.com/",
+      "repository" : {
+         "type" : "git",
+         "url" : "http://github.com/spazm/p5-facebook-graph-cmdline.git",
+         "web" : "http://github.com/spazm/p5-facebook-graph-cmdline"
+      }
+   },
+   "version" : "0.123460"
+}
+
