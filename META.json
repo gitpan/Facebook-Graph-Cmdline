@@ -4,7 +4,7 @@
       "Andrew Grangaard <spazm@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300003, CPAN::Meta::Converter version 2.112621",
+   "generated_by" : "Dist::Zilla version 4.300003, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "perl_5"
    ],
@@ -21,16 +21,23 @@
       },
       "runtime" : {
          "requires" : {
-            "Any::Moose" : 0,
-            "Facebook::Graph" : 0,
+            "Any::Moose" : "0",
+            "Facebook::Graph" : "0",
             "HTTP::Daemon" : "6.00",
-            "MooseX::Getopt" : 0,
-            "MooseX::SimpleConfig" : 0,
-            "MouseX::Getopt" : 0,
-            "MouseX::SimpleConfig" : 0,
-            "URI" : 0,
-            "YAML::Any" : 0,
+            "MooseX::Getopt" : "0",
+            "MooseX::SimpleConfig" : "0",
+            "MouseX::Getopt" : "0",
+            "MouseX::SimpleConfig" : "0",
+            "URI" : "0",
+            "YAML::Any" : "0",
             "perl" : "v5.10.0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Moose" : "0",
+            "Mouse" : "0",
+            "Test::More" : "0"
          }
       }
    },
@@ -39,10 +46,10 @@
       "homepage" : "http://lowlevelmanager.com/",
       "repository" : {
          "type" : "git",
-         "url" : "http://github.com/spazm/p5-facebook-graph-cmdline.git",
-         "web" : "http://github.com/spazm/p5-facebook-graph-cmdline"
+         "url" : "git://github.com/spazm/p5-facebook-graph-cmdline.git",
+         "web" : "https://github.com/spazm/p5-facebook-graph-cmdline"
       }
    },
-   "version" : "0.123480"
+   "version" : "0.123482"
 }
 

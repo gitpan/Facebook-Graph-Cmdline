@@ -11,7 +11,11 @@ use ExtUtils::MakeMaker 6.30;
 my %WriteMakefileArgs = (
   "ABSTRACT" => "Extends Facebook::Graph with embedded HTTP for Oauth and token saving",
   "AUTHOR" => "Andrew Grangaard <spazm\@cpan.org>",
-  "BUILD_REQUIRES" => {},
+  "BUILD_REQUIRES" => {
+    "Moose" => 0,
+    "Mouse" => 0,
+    "Test::More" => 0
+  },
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
   },
@@ -30,9 +34,9 @@ my %WriteMakefileArgs = (
     "URI" => 0,
     "YAML::Any" => 0
   },
-  "VERSION" => "0.123480",
+  "VERSION" => "0.123482",
   "test" => {
-    "TESTS" => ""
+    "TESTS" => "t/*.t"
   }
 );
 

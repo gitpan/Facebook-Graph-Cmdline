@@ -1,32 +1,34 @@
-package Facebook::Graph::role::save_token;
+package Facebook::Graph::Cmdline::Role::SaveAccessToken;
 {
-  $Facebook::Graph::role::save_token::VERSION = '0.123480';
+  $Facebook::Graph::Cmdline::Role::SaveAccessToken::VERSION = '0.123482';
 }
 
-#ABSTRACT: Provides a save_token method to save token value to YAML config file.
+#ABSTRACT: Provides a save_access_token method to save token value to YAML config file.
 
 use v5.10;
 use Any::Moose 'Role';
 use YAML::Any;
 
-requires qw( get_config_from_file configfile token );
+requires qw( get_config_from_file configfile access_token );
+
 # MooseX::SimpleConfig or MouseX::SimpleConfig will provide
 # both get_config_from_file and configfile
 
 
-sub save_token
+sub save_access_token
 {
     my $self = shift;
     if ( !$self->configfile )
     {
-        say "please save token: " . $self->token;
+        say "please save token: " . $self->access_token;
         return 1;
     }
 
     my $config = $self->get_config_from_file( $self->configfile );
-    if ( !exists $config->{token} or $self->token ne $config->{token} )
+    if ( !exists $config->{access_token}
+        or $self->access_token ne $config->{access_token} )
     {
-        $config->{token} = $self->token;
+        $config->{access_token} = $self->access_token;
         YAML::Any::DumpFile( $self->configfile, $config );
     }
 }
@@ -38,15 +40,15 @@ __END__
 
 =head1 NAME
 
-Facebook::Graph::role::save_token - Provides a save_token method to save token value to YAML config file.
+Facebook::Graph::Cmdline::Role::SaveAccessToken - Provides a save_access_token method to save token value to YAML config file.
 
 =head1 VERSION
 
-version 0.123480
+version 0.123482
 
 =head1 METHODS
 
-=head2 save_token
+=head2 save_access_token
 
 Updates token value in configfile and saves as YAML if modified.
 

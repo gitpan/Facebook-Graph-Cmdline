@@ -1,6 +1,6 @@
 package Facebook::Graph::Cmdline;
 {
-  $Facebook::Graph::Cmdline::VERSION = '0.123480';
+  $Facebook::Graph::Cmdline::VERSION = '0.123482';
 }
 
 #ABSTRACT: Extends Facebook::Graph with embedded HTTP for Oauth and token saving
@@ -9,7 +9,7 @@ use Any::Moose;
 use v5.10;
 
 extends 'Facebook::Graph';
-with 'Facebook::Graph::role::HTTPtoken';
+with 'Facebook::Graph::Cmdline::Role::HTTPAccessToken';
 
 #Is there a better way to do MooseX vs MouseX 'with' loading?
 #can import with "use Any::Moose 'X::SimpleConfig'" but that doesn't
@@ -25,7 +25,7 @@ else
     with 'MouseX::Getopt';
 }
 # requires provided by ::SimpleConfig
-with 'Facebook::Graph::role::save_token';
+with 'Facebook::Graph::Cmdline::Role::SaveAccessToken';
 
 no Any::Moose;
 __PACKAGE__->meta->make_immutable;
@@ -39,7 +39,7 @@ Facebook::Graph::Cmdline - Extends Facebook::Graph with embedded HTTP for Oauth 
 
 =head1 VERSION
 
-version 0.123480
+version 0.123482
 
 =head1 AUTHOR
 
