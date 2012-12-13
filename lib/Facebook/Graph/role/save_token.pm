@@ -1,6 +1,6 @@
 package Facebook::Graph::role::save_token;
 {
-  $Facebook::Graph::role::save_token::VERSION = '0.123460';
+  $Facebook::Graph::role::save_token::VERSION = '0.123480';
 }
 
 #ABSTRACT: Provides a save_token method to save token value to YAML config file.
@@ -42,7 +42,7 @@ Facebook::Graph::role::save_token - Provides a save_token method to save token v
 
 =head1 VERSION
 
-version 0.123460
+version 0.123480
 
 =head1 METHODS
 

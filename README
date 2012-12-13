@@ -1,9 +1,9 @@
 
 
 This archive contains the distribution Facebook-Graph-Cmdline,
-version 0.123460:
+version 0.123480:
 
-  Extends Facebook::Graph to create and save an access token.
+  Extends Facebook::Graph with embedded HTTP for Oauth and token saving
 
 This software is copyright (c) 2012 by Andrew Grangaard.
 

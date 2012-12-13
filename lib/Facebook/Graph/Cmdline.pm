@@ -1,9 +1,9 @@
 package Facebook::Graph::Cmdline;
 {
-  $Facebook::Graph::Cmdline::VERSION = '0.123460';
+  $Facebook::Graph::Cmdline::VERSION = '0.123480';
 }
 
-#ABSTRACT: Extends Facebook::Graph to create and save an access token.
+#ABSTRACT: Extends Facebook::Graph with embedded HTTP for Oauth and token saving
 
 use Any::Moose;
 use v5.10;
@@ -35,11 +35,11 @@ __END__
 
 =head1 NAME
 
-Facebook::Graph::Cmdline - Extends Facebook::Graph to create and save an access token.
+Facebook::Graph::Cmdline - Extends Facebook::Graph with embedded HTTP for Oauth and token saving
 
 =head1 VERSION
 
-version 0.123460
+version 0.123480
 
 =head1 AUTHOR
 

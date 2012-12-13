@@ -1,3 +1,4 @@
+Changes
 LICENSE
 MANIFEST
 META.json
@@ -7,6 +8,8 @@ README
 TODO.txt
 dist.ini
 examples/facebook.yml
+examples/show_group_event_information.pl
+examples/show_group_events.pl
 examples/show_group_information.pl
 facebook.yml
 lib/Facebook/Graph/Cmdline.pm

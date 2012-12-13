@@ -1,5 +1,5 @@
 ---
-abstract: 'Extends Facebook::Graph to create and save an access token.'
+abstract: 'Extends Facebook::Graph with embedded HTTP for Oauth and token saving'
 author:
   - 'Andrew Grangaard <spazm@cpan.org>'
 build_requires: {}
@@ -26,4 +26,4 @@ requires:
 resources:
   homepage: http://lowlevelmanager.com/
   repository: http://github.com/spazm/p5-facebook-graph-cmdline.git
-version: 0.123460
+version: 0.123480

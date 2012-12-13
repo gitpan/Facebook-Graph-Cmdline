@@ -1,6 +1,6 @@
 package Facebook::Graph::role::HTTPtoken;
 {
-  $Facebook::Graph::role::HTTPtoken::VERSION = '0.123460';
+  $Facebook::Graph::role::HTTPtoken::VERSION = '0.123480';
 }
 
 #ABSTRACT: Embeds an HTTP::Daemon to implement OAuth callback for Facebook Authorization of Commandline Facebook apps.
@@ -126,7 +126,7 @@ Facebook::Graph::role::HTTPtoken - Embeds an HTTP::Daemon to implement OAuth cal
 
 =head1 VERSION
 
-version 0.123460
+version 0.123480
 
 =head1 AUTHOR
 
