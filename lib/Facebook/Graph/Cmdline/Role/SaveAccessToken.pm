@@ -1,6 +1,6 @@
 package Facebook::Graph::Cmdline::Role::SaveAccessToken;
 {
-  $Facebook::Graph::Cmdline::Role::SaveAccessToken::VERSION = '0.123482';
+  $Facebook::Graph::Cmdline::Role::SaveAccessToken::VERSION = '0.123490';
 }
 
 #ABSTRACT: Provides a save_access_token method to save token value to YAML config file.
@@ -44,7 +44,7 @@ Facebook::Graph::Cmdline::Role::SaveAccessToken - Provides a save_access_token m
 
 =head1 VERSION
 
-version 0.123482
+version 0.123490
 
 =head1 METHODS
 

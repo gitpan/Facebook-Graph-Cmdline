@@ -1,6 +1,6 @@
 package Facebook::Graph::Cmdline::Role::HTTPAccessToken;
 {
-  $Facebook::Graph::Cmdline::Role::HTTPAccessToken::VERSION = '0.123482';
+  $Facebook::Graph::Cmdline::Role::HTTPAccessToken::VERSION = '0.123490';
 }
 
 #ABSTRACT: Embeds an HTTP::Daemon to implement OAuth callback for Facebook Authorization of Commandline Facebook apps.
@@ -127,7 +127,7 @@ Facebook::Graph::Cmdline::Role::HTTPAccessToken - Embeds an HTTP::Daemon to impl
 
 =head1 VERSION
 
-version 0.123482
+version 0.123490
 
 =head1 AUTHOR
 

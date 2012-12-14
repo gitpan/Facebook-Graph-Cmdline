@@ -13,4 +13,4 @@ permissions:
 - user_groups
 - friends_location
 postback: http://localhost:8123/
-secret: c548c8476d4ffc3eba41a7ce70a6c1f8
+secret: b75698b18f8a68b05d71d8e9f36f56b4

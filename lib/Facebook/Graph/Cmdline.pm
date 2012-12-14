@@ -1,6 +1,6 @@
 package Facebook::Graph::Cmdline;
 {
-  $Facebook::Graph::Cmdline::VERSION = '0.123482';
+  $Facebook::Graph::Cmdline::VERSION = '0.123490';
 }
 
 #ABSTRACT: Extends Facebook::Graph with embedded HTTP for Oauth and token saving
@@ -39,7 +39,7 @@ Facebook::Graph::Cmdline - Extends Facebook::Graph with embedded HTTP for Oauth 
 
 =head1 VERSION
 
-version 0.123482
+version 0.123490
 
 =head1 AUTHOR
 
